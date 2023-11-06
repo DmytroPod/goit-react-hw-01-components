@@ -1,15 +1,15 @@
-import { List } from './FriedList.styled';
+import { List, Status, Item, UserAvatar } from './FriedList.styled';
 
 const FrendList = ({ friends }) => {
   return (
-    <List class="friend-list">
+    <List>
       {friends.map(({ id, isOnline, name, avatar }) => {
         return (
-          <li key={id} class="item">
-            <span class="status">{isOnline}</span>
-            <img class="avatar" src={avatar} alt="User avatar" width="48" />
-            <p class="name">{name}</p>
-          </li>
+          <Item key={id}>
+            <Status $isOnline={isOnline}>{isOnline}</Status>
+            <UserAvatar src={avatar} alt="User avatar" width="48" />
+            <p>{name}</p>
+          </Item>
         );
       })}
     </List>

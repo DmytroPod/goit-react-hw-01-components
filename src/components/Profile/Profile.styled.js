@@ -37,10 +37,10 @@ export const ProfileList = styled.ul`
 `;
 export const ProfileItem = styled.li`
   text-align: center;
-  border: 2px solid #555; /* Бордер навколо кожного елемента статистики */
-  border-radius: 10px; /* Закруглені кути для елементів */
+  border: 2px solid #555;
+  border-radius: 10px;
   padding: 5px 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Тінь для елементів статистики */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 `;
 export const Label = styled.span`
   display: block;

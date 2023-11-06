@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const Container = styled.section`
   text-align: center;
-  background-color: #f5f5f5;
+  background-color: #fff;
   padding: 20px;
 `;
 export const Title = styled.h2`
