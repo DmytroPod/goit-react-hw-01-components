@@ -1,4 +1,4 @@
-export const Profile = ({ username, tag, location, avatar, stats }) => {
+const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div class="profile">
       <div class="description">
@@ -25,3 +25,4 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
     </div>
   );
 };
+export default Profile;
