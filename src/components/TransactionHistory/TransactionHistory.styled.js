@@ -18,7 +18,6 @@ export const TitleTable = styled.thead`
   border-radius: 5px;
 `;
 export const TitleTh = styled.th`
-  text-align: left;
   padding: 10px;
   font-weight: bold;
   border: 1px solid #ddd;
@@ -27,4 +26,5 @@ export const TitleTh = styled.th`
 export const TableTd = styled.td`
   padding: 10px;
   border: 1px solid #ddd;
+  text-align: left;
 `;
